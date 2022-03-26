@@ -1,3 +1,0 @@
-PossibleChars = 0123456789abcdefghijklmnopqrstuvwxyz;
-PasswordMaxLength = 4;
-ThreadsMaxCount = 600;

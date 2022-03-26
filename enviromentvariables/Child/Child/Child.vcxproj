@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5a0da2a1-1673-4479-9bb6-3385717d19a8}</ProjectGuid>
-    <RootNamespace>Deque</RootNamespace>
+    <ProjectGuid>{17023d55-76e0-4c0f-813e-c05b38edf2b8}</ProjectGuid>
+    <RootNamespace>Child</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,10 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Deque.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="List.h" />
+    <ClCompile Include="Child.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
